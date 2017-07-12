@@ -1,0 +1,110 @@
+void abssort(float* x, unsigned n) {
+   std::sort(x, x + n,
+       // Lambda expression begins
+       [](float a, float b) {
+           return (std::abs(a) < std::abs(b));
+       } // end of lambda expression
+   );
+}
+class ShowDeclaration : public IAction
+{
+public:
+void increment()
+{
+if(a==0){
+int c= b-d;
+a++;
+}
+}
+protected:
+int c;
+float p;
+int sexy()
+{
+while (n>0) {
+   cout << n << ", ";
+   --n;
+ }
+}
+private:
+int a;
+int d;
+};
+try
+{
+int main()
+{
+switch(grade)
+{
+  case 'A' :
+     cout << "Excellent!" << endl;
+     break;
+  case 'B' :
+  case 'C' :
+     cout << "Well done" << endl;
+     break;
+  case 'D' :
+     cout << "You passed" << endl;
+     break;
+  case 'F' :
+     cout << "Better try again" << endl;
+     break;
+  default :
+     cout << "Invalid grade" << endl;
+}
+
+if (Yes==Yes, yes==yes)
+{
+
+                   cout<<"Enter a number:  \n";
+                   cin>> num;
+                   cin.ignore();
+
+               if (num==5){
+                   cout<<"Congradulations, you guessed right.\n";
+                   }
+               else {
+                   cout<<"You guessed wrong.\n";
+                   }
+}
+
+}
+}
+catch(exception e)
+{
+std::cout<<exception<<e;
+}
+
+/*do{
+     count++;
+}while(true);
+else 
+{
+}
+try{
+}
+void main(){
+if(true){
+	for(int x=0; x>length() ; x++)
+		int a;
+}
+else {
+}
+for(int i=0;i<p;i++)
+{
+     cout<<"This is FOR";
+}
+while(true)
+{
+	cout<< "This is While\n";
+}
+switch(i){
+default:
+	cout<<"This is Switch";
+}
+catch(exception e){
+}
+}
+int def(int x){
+//blah
+}*/
